@@ -1,8 +1,8 @@
 # Hot Leads Classifier
 
-A small Python CLI that ranks warm and hot leads from Kajabi delivery CSV exports.
+A lightweight AI agent with Python command-line tool that classifies Kajabi contacts based on their engagement with email broadcasts.
 
-The tool reads one or more Kajabi `deliveries` CSV files, scores each contact based on opens, clicks, and recency, then writes a CSV of contacts that pass the configured hot-lead threshold.
+It reads Kajabi email delivery CSV exports, analyzes each contact’s opens, clicks, and recent activity, then scores them to identify warm and hot leads. Contacts who pass the configured threshold are exported into a Kajabi-friendly CSV, ready to be tagged or used in follow-up workflows.
 
 ## Features
 
