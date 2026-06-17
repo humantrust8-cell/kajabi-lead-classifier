@@ -1,0 +1,8 @@
+exports-kajabi/*.csv
+exports-kajabi/archive/*.csv
+output/*
+!output/.gitkeep
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+{
+  "scoring": {
+    "open_points": 5,
+    "click_points": 15,
+    "hot_lead_threshold": 35
+  },
+  "recency_multiplier": {
+    "days_0_14": 2.0,
+    "days_15_30": 1.5,
+    "days_31_90": 1.0,
+    "over_90_days": 0
+  },
+  "deduplication": {
+    "max_open_points_per_email_per_contact": true,
+    "max_click_points_per_email_per_contact": true
+  },
+  "lookback": {
+    "days": 90
+  },
+  "tag": {
+    "name": "hot-lead",
+    "apply_to_kajabi": false
+  },
+  "output": {
+    "include_audit_columns": true
+  },
+  "archive": {
+    "processed_exports": true,
+    "directory": "archive"
+  }
+}
